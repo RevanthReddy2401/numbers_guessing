@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Number Guess Application</h1>
+        <p class="select">Select a number between 1 to 100 and Guess it!!!</p>
+        <div class="input">
+            <label for="gname">Guess a number</label>
+            <input type="number" name="gname" min="1" max="100" id="no">
+        </div>
+        <script src="./design.js"></script>
+        <h3 id="res"></h3>
+        <h3>No of tries:</h3>
+        <p id="tries">0</p>
+        <div class="buttons">
+            <input type="button" value="Check" id="bt" onclick="findnum()">
+            <input type="button" value="Reset" id="bt" onclick="window.location.reload()"></div>
+    </div>
+</body>
+</html>
